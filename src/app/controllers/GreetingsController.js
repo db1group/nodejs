@@ -1,14 +1,17 @@
 class GreetingsController {
   async greet(req, res) {
-    const { name } = req.query;
+    const somebody = req.params.somebody;
+    const { looking } = req.query;
+    
+    let greetingMessage = `Hello, ${somebody}!`;
 
-    if (!name) {
-      return res.status(400).send({ message: 'Who should I greet?' });
+    if (looking === 'sad') {
+      greetingMessage += ' Is everything alright?'
     }
 
-    const greeting = `Hello, ${name}`;
-
-    return res.status(200).send({ message: greeting });
+    return res.status(200).send({
+      message: greetingMessage
+    });
   }
 }
 
