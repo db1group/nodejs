@@ -40,7 +40,7 @@ Then open the Debug and execute the **Attach Program**.
 * [Jest Text Explorer](https://marketplace.visualstudio.com/items?itemName=kavod-io.vscode-jest-test-adapter)
 * [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
 
-## NPM Packages intalled
+## NPM installed packages 
 * bcrypt
 * Cross-env (to read .env files)
 * dotenv
