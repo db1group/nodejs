@@ -1,0 +1,10 @@
+tasks:
+  - init: yarn install
+
+vscode:
+  extensions:
+    - kavod-io.vscode-jest-test-adapter@0.6.0:1CgZWjsZ44xnd0wcV3LYCg==
+    - formulahendry.auto-close-tag@0.5.8:CDi+j7vz+JbA+ZAPgKA4kw==
+    - CoenraadS.bracket-pair-colorizer-2@0.2.0:R8flOpw1fEZe6KyMNNNqBQ==
+    - christian-kohler.path-intellisense@2.2.1:GUYwBShcwzd1CP4d0YhMmA==
+    - hbenl.vscode-test-explorer@2.19.1:GtY0wSp3pjUeyKXi8mFMnQ==
