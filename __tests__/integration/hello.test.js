@@ -5,7 +5,7 @@ const app = require('../../src/app');
 describe('Authentication', () => {
   it('should greet somebody', async () => {
     const response = await request(app)
-      .get(`/hello/Chico`)
+      .post(`/greet/Chico`)
       .send();
 
     expect(response.body.message).toBe('Hello, Chico!');
@@ -14,7 +14,7 @@ describe('Authentication', () => {
 
   it('should ask how somebody is when looking sad', async () => {
     const response = await request(app)
-      .get(`/hello/Ivo?looking=sad`)
+      .post(`/greet/Ivo?looking=sad`)
       .send();
 
     expect(response.body.message).toBe('Hello, Ivo! Is everything alright?');
