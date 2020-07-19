@@ -10,6 +10,8 @@
 
 <p align="center"><a href="https://github.com/db1group/click-and-code">-= Back to Main Project =-</a></p>
 
+![Node.js CI](https://github.com/db1group/nodejs/workflows/Node.js%20CI/badge.svg)
+
 ## How to run a test and debug
 
 You have two options to achieve it:
