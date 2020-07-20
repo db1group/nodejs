@@ -1,4 +1,4 @@
-<p align="center">Click below to start a ready-to-code IDE for java projects.</p>
+<p align="center">Click below to start a ready-to-code IDE for Node.js projects.</p>
 
 <p align="center">
   <a href="https://gitpod.io/#https://github.com/db1group/nodejs">
